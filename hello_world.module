@@ -1,0 +1,5 @@
+<?php
+
+function hello_world_preprocess_page(&$variables) {
+  $variables['#attached']['library'][] = 'hello_world/hello_world_lib';
+}
